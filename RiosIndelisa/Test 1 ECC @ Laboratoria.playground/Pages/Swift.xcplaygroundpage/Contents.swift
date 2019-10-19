@@ -42,8 +42,21 @@ enum Planetas: Int {
 let nuevo=Planetas.Mercury
 
 //: 7. Utiliza una sentencia switch para imprimir un mensaje dependiendo del valor de la constante planet de la pregunta 6.
+func mySwitch(nuevo: String){
+    switch planet
+    {
+    case .Venus:
+        print("Venus")
+    case .Earth:
+        print("Tierra")
+    case .Mars:
+        print ("Marte")
+    default:
+        print("Otro")
+    }
+}
 
-
+mySwitch(planeta: planet)
 //: 8. Declara una función llamada ```haveRead()``` que tome como parámetro el arreglo de cadenas ```books``` y la cadena ```book``` y regrese un booleano. La idea de esta función es determinar si la cadena ```book``` se encuentra dentro de ```books```
 
 let books = ["The Fountainhead", "Atlas Shrugged", "Why Nations Fail", "The Principles of Scientific Managemente", "Factfulness", "Outliers", "El Existencialismo es un Humanismo", "The Old Man and the Sea", "El Arte de Pensar", "Six Easy Pieces", "Steve Jobs", "Energy and Civilization: A History", "A History of Judaism"]
