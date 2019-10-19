@@ -5,13 +5,13 @@
 
 //:    1¿Qué hace el archivo ViewController.swift?
 /*
-Respuesta:
+Respuesta: es donde se encuentra todas las funciones, donde las variables y datos que ser veran reflejadas en las vistas tienen interacción
  
  */
 
 //: 2. ¿Qué puedes hacer dentro del archivo Main.storyboard?
 /*
-Respuesta:
+Respuesta: Es donde esncotramos las vistas que tendra nuestra aplicaión, agregegar bontenes, las interaccionciones que tendran entre ellos toda la parte visual
  
  */
 
@@ -23,7 +23,7 @@ Respuesta:
 
 //: 4. ¿Menciona al menos una ventaja al utilizar UIStackView?
 /*
-Respuesta:
+Respuesta: Nos ayuda a manejar de mejor manera la alineación, distribucion y espaciado entre los elementos, pudiendo agruparlos para hacer los difernetes ajuste a las vistas
  
  */
 
@@ -33,7 +33,7 @@ Respuesta:
 //: c) Swift: 4.0 iOS: 11
 //: d) Swift: 5.0 iOS: 13
 /*
-Respuesta:
+Respuesta: d) Swift: 5.0  iOS: 13
  
  */
 
@@ -42,8 +42,7 @@ Respuesta:
 //: - b) Agregar constraints
 //: - c) Ninguna de las anteriores
 /*
-Respuesta:
- 
+Respuesta:b) Agregar constraints
  */
 
 //: 7. Supón que tienes un UIButton dentro de una vista A y quieres hacer una transición a otra vista B al presionar ese botón. ¿Qué tienes que hacer si quieres que la vista B aparezca de derecha a izquierda?
@@ -52,7 +51,7 @@ Respuesta:
 //: - c) Ctrl + Drag del botón a la vista B  > Método de presentación: Show
 //: - d) Ctrl + Drag del botón a la vista B  > Método de presentación: PresentModally
 /*
-Respuesta:
+Respuesta: c) Ctrl + Drag del botón a la vista B  > Método de presentación: Show
  
  */
 

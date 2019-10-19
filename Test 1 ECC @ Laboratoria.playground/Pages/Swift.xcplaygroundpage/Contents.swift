@@ -7,25 +7,34 @@ import Foundation
 
 //: 1. Escribe un hola mundo en Swift
 //Respuesta:
+print ( "Hola mundo" )
 
 //: 2. Escribe un ejemplo de String Interpolation
 //Respuesta:
+let name = "Rena"
+print("Hola soy \(name) y estoy completamente perdida en el examen")
+
 
 //: 3. Declara un arreglo constante de tipo Double con los siguientes elementos: 1.0, 5.0, 33.3, 45.5
-//Respuesta:
+//Respuesta: let doubles = Double[1.0, 5.0, 33.3, 45.5]
  
 //: 4. Usando un ciclo for, itera sobre el arreglo de la pregunta 3 e imprime cada uno de los elementos del arreglo.
 //Respuesta:
+func printDouble(){
+    for double in doubles {
+        print(double)
+    }
+}
 
 //: 5. Declara la enumeración llamada Planet y como casos ocupa los siguientes:
 //: - Mercury
 //: - Venus
 //: - Earth
 //: - Mars
-//Respuesta
+//Respuesta enum Planet { Mercury, Venus, Earth, Mars}
 
 //: 6. Declara una constante llamada planet y asígnale un caso de la enumeración Planet (el caso que quieras)
-//Respuesta:
+//Respuesta: let planet = Planet.Venus
 
 //: 7. Utiliza una sentencia switch para imprimir un mensaje dependiendo del valor de la constante planet de la pregunta 6.
 //Respuesta:
@@ -36,6 +45,11 @@ let books = ["The Fountainhead", "Atlas Shrugged", "Why Nations Fail", "The Prin
 let book = "Outliers"
 
 //Respuesta:
+ func readBooks() -> DarwinBoolean {
+        for book in books {
+            <#code#>
+        }
+    }
 
 //: 9. Finalmente, crea una estructura llamada ```Person``` que tenga como atributos:
 //: - name: String
@@ -44,5 +58,10 @@ let book = "Outliers"
 //: Crea una instancia de ```Person``` e inicialízala con tu nombre y ocupa la constante ```books``` de la pregunta 8 como segundo parámetro. Finalmente, manda a llamar al método ```haveRead()``` y pásale como parámetro la constante ```book``` de la pregunta 8. El resultado debe ser un booleano.
 
 //Respuesta
+struct Person {
+    var name: String
+    var books:[String]
+   
+}
 
 
