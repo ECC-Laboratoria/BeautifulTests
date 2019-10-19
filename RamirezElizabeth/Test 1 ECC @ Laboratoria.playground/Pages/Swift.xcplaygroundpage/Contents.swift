@@ -8,14 +8,35 @@ import Foundation
 //: 1. Escribe un hola mundo en Swift
 //Respuesta:
 
+print("hola mundo")
+
 //: 2. Escribe un ejemplo de String Interpolation
 //Respuesta:
+
+
+
+let two = "hola"
+let one = "amigo"
+let plus = "\(hola),\(amigo)"
+
+print​(​plus)
+
+​
 
 //: 3. Declara un arreglo constante de tipo Double con los siguientes elementos: 1.0, 5.0, 33.3, 45.5
 //Respuesta:
  
 //: 4. Usando un ciclo for, itera sobre el arreglo de la pregunta 3 e imprime cada uno de los elementos del arreglo.
 //Respuesta:
+var cero: Int = 0
+
+for _ in 1...45 {
+    
+    cero += 1
+    
+    print(cero)
+    
+}
 
 //: 5. Declara la enumeración llamada Planet y como casos ocupa los siguientes:
 //: - Mercury
@@ -23,9 +44,16 @@ import Foundation
 //: - Earth
 //: - Mars
 //Respuesta
-
+enum planets {
+    case mercury
+    case venus
+    case earth
+    case mars
+}
 //: 6. Declara una constante llamada planet y asígnale un caso de la enumeración Planet (el caso que quieras)
 //Respuesta:
+
+let planet = planets (.venus)
 
 //: 7. Utiliza una sentencia switch para imprimir un mensaje dependiendo del valor de la constante planet de la pregunta 6.
 //Respuesta:
@@ -36,6 +64,14 @@ let books = ["The Fountainhead", "Atlas Shrugged", "Why Nations Fail", "The Prin
 let book = "Outliers"
 
 //Respuesta:
+
+func booksA() -> Bool {
+    let books = true
+    return books
+}
+    
+   
+
 
 //: 9. Finalmente, crea una estructura llamada ```Person``` que tenga como atributos:
 //: - name: String
