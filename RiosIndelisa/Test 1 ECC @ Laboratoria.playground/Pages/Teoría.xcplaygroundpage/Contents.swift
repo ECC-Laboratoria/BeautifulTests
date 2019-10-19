@@ -5,7 +5,7 @@
 
 //:    1¿Qué hace el archivo ViewController.swift?
 /*
-Respuesta:
+Respuesta: Para programar la logica
  
  */
 
@@ -33,7 +33,7 @@ Respuesta:
 //: c) Swift: 4.0 iOS: 11
 //: d) Swift: 5.0 iOS: 13
 /*
-Respuesta:
+Respuesta:iOS13
  
  */
 
@@ -42,7 +42,7 @@ Respuesta:
 //: - b) Agregar constraints
 //: - c) Ninguna de las anteriores
 /*
-Respuesta:
+Respuesta:B
  
  */
 
