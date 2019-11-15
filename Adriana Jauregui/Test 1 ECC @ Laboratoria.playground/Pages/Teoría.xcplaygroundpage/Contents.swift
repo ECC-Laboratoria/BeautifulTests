@@ -5,26 +5,25 @@
 
 //:    1¿Qué hace el archivo ViewController.swift?
 /*
-Respuesta:
- Es un archivo de codigo fuente, que controla la vista con el modelo.
+Respuesta: genera un controlador de vista en el que se bindean las IBOtutlet y los IBAction
  
  */
 
 //: 2. ¿Qué puedes hacer dentro del archivo Main.storyboard?
 /*
-Respuesta: Desarrollar la interface del proyecto.
+Respuesta: dentro del archivo se puede crear una vista y agregar elementos a la interfaz de usuario
  
  */
 
 //: 3. ¿Cuál es la diferencia entre IBOutlet y IBAction?
 /*
-Respuesta: IBOutlet indica que es un elemento, IBAction indica que es una accion.
+Respuesta: el  IBOutlet sirve para modificar las propiedades de los componentes existentes mientras el IBAction sirve para bindear una accion(evento) a un componente de la vista
  
  */
 
 //: 4. ¿Menciona al menos una ventaja al utilizar UIStackView?
 /*
-Respuesta: Agrupa los elementos dentro del Stack y puedes darle formato a todos los elementos en conjunto.
+Respuesta: al usar stack view los constrains quedan definidos para todos los elementos dentro del mismo por lo que es mass sencillo manipularlos y hacerlos responsivos
  
  */
 
@@ -53,9 +52,8 @@ Respuesta: b
 //: - c) Ctrl + Drag del botón a la vista B  > Método de presentación: Show
 //: - d) Ctrl + Drag del botón a la vista B  > Método de presentación: PresentModally
 /*
-Respuesta: c
+Respuesta: b
  
  */
 
 //: [Next](@next)
-
