@@ -8,28 +8,32 @@ import Foundation
 //: 1. Escribe un hola mundo en Swift
 //Respuesta:
 
-print("Hola Mundo")
+import Swift
+print("Hola mundo!")
+
 
 //: 2. Escribe un ejemplo de String Interpolation
 //Respuesta:
 
-let name = "Analhí"
+var name = "Loops"
+"Your name is " + name
 
-print("Hola \(name)")
 
 //: 3. Declara un arreglo constante de tipo Double con los siguientes elementos: 1.0, 5.0, 33.3, 45.5
 //Respuesta:
+var doubleNumbers = [1.0, 5.0, 33.3, 45.5]
 
-let num : [Double] = [1.0, 5.0, 33.3, 45.5]
- 
 //: 4. Usando un ciclo for, itera sobre el arreglo de la pregunta 3 e imprime cada uno de los elementos del arreglo.
 //Respuesta:
 
 
-for num in num {
-    print(num)
-    
+
+var Numbers = [1.0, 5.0, 33.3, 45.5]
+
+for i in 0 ..< Numbers.count {
+    print(Numbers[i])
 }
+
 
 //: 5. Declara la enumeración llamada Planet y como casos ocupa los siguientes:
 //: - Mercury
@@ -38,28 +42,29 @@ for num in num {
 //: - Mars
 //Respuesta
 
-enum Planet{
-    case Mercury
-    case Venus
-    case Earth
-    case Mars
+var numberPlanet = ["Mercury", "Venus", "Earth", "Mars"]
+
+for i in 0 ..< numberPlanet.count {
+    print("Planeta \(i + 1) - \(numberPlanet[i])")
 }
 
 //: 6. Declara una constante llamada planet y asígnale un caso de la enumeración Planet (el caso que quieras)
 //Respuesta:
-let planet = Planet.Mars
+
+
+var planet = numberPlanet[2]
+
 //: 7. Utiliza una sentencia switch para imprimir un mensaje dependiendo del valor de la constante planet de la pregunta 6.
 //Respuesta:
-switch planet{
-case .Mercury : planet == Planet.Mercury
-    print("Hello, Im not there")
-    
-case .Venus: planet == Planet.Venus
-    print("Hello, Im not there")
-case .Earth: planet == Planet.Earth
-    print("Hello, Im not there")
-case .Mars: planet == Planet.Mars
-    print("Hello, Im here")
+
+
+switch planet {
+case "Mercury":
+    print("The first planet in the solar system")
+case "Earth":
+    print("The unique planet with life and our home, take care")
+default:
+    print("We don't find life in other planets yet")
 }
 
 
@@ -69,13 +74,16 @@ let books = ["The Fountainhead", "Atlas Shrugged", "Why Nations Fail", "The Prin
 let book = "Outliers"
 
 //Respuesta:
-
-func haveRead (_ books: Array<Any>, _ book : String){
-    
-    for book in books {
-        if book ==
+func haveRead(books: String, book: String) -> Bool {
+    if (book == books){
+        return true
+    } else {
+        return false
     }
 }
+
+
+
 //: 9. Finalmente, crea una estructura llamada ```Person``` que tenga como atributos:
 //: - name: String
 //: - books: [String]
@@ -83,11 +91,5 @@ func haveRead (_ books: Array<Any>, _ book : String){
 //: Crea una instancia de ```Person``` e inicialízala con tu nombre y ocupa la constante ```books``` de la pregunta 8 como segundo parámetro. Finalmente, manda a llamar al método ```haveRead()``` y pásale como parámetro la constante ```book``` de la pregunta 8. El resultado debe ser un booleano.
 
 //Respuesta
-
-struct Person{
-    var name: String;
-    var books: [String];
-    
-}
 
 

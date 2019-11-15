@@ -5,26 +5,25 @@
 
 //:    1¿Qué hace el archivo ViewController.swift?
 /*
-Respuesta: Permite definir el código que se usará en las vistas y hacer conexiones entre elementos y código.
+Respuesta: Es un intermediario entre la aplicación y la pantalla, controla las vistas que tiene de acuerdo a la lógica que se programa.
  
  */
 
 //: 2. ¿Qué puedes hacer dentro del archivo Main.storyboard?
 /*
-Respuesta: Diseñar y ver las vistas y definir como se relacionan entre ellas.
+Respuesta: Es donde puedes ver y agregar las vistas que quieres que tenga tu aplicación, puedes conectar las vistas, agregar elementos, en pocas palabras es donde haces la interfaz que tendrá tu aplicación.
  
  */
 
 //: 3. ¿Cuál es la diferencia entre IBOutlet y IBAction?
 /*
- Respuesta: IBOutlet - Es una forma de convertir un elemento de UI en una variable para poder utilizarlo.
- IBAction - Es una función que permite enlazar eventos a los elementos de UI. Un ejemplo claro es la acción de un botón.
+Respuesta: el IBOutlet es una variable que tiene interacción con la interfaz y IBAction es una función que al ser llamada detona una acción.
  
  */
 
 //: 4. ¿Menciona al menos una ventaja al utilizar UIStackView?
 /*
-Respuesta: Puedes definir ciertas constrains y la manera en que ciertos elementos se comportan, así a través de variaciones puedes ir modificando las vistas.
+Respuesta: Puedes cambiar el estilo (por ejemplo el tamaño) de varios elementos al mismo tiempo, sin tener que estar haciendolo uno por uno.
  
  */
 
@@ -44,6 +43,7 @@ Respuesta: d
 //: - c) Ninguna de las anteriores
 /*
 Respuesta: b
+ 
  */
 
 //: 7. Supón que tienes un UIButton dentro de una vista A y quieres hacer una transición a otra vista B al presionar ese botón. ¿Qué tienes que hacer si quieres que la vista B aparezca de derecha a izquierda?

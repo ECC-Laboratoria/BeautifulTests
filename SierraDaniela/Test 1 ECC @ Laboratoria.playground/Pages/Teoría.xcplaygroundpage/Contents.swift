@@ -5,27 +5,28 @@
 
 //:    1¿Qué hace el archivo ViewController.swift?
 /*
-Respuesta: Permite definir el código que se usará en las vistas y hacer conexiones entre elementos y código.
+Respuesta:
+ Es un controlador para poner el codigo este reacciona a los eventos del usuario
  
  */
 
 //: 2. ¿Qué puedes hacer dentro del archivo Main.storyboard?
 /*
-Respuesta: Diseñar y ver las vistas y definir como se relacionan entre ellas.
+Respuesta: es la representacion visual de la interfaz de usuario de la apliccon de ios, muestra el contenido de la s pantallas y las conecciones entre estas.
  
  */
 
 //: 3. ¿Cuál es la diferencia entre IBOutlet y IBAction?
 /*
- Respuesta: IBOutlet - Es una forma de convertir un elemento de UI en una variable para poder utilizarlo.
- IBAction - Es una función que permite enlazar eventos a los elementos de UI. Un ejemplo claro es la acción de un botón.
- 
+Respuesta:
+ el IBOutlet es una variable la cual hace referencia a un componente UI
+ EL IBAction es una funcion la cual es llamada cuando ocurre una interaccion con un usuario especifico.
  */
 
 //: 4. ¿Menciona al menos una ventaja al utilizar UIStackView?
 /*
-Respuesta: Puedes definir ciertas constrains y la manera en que ciertos elementos se comportan, así a través de variaciones puedes ir modificando las vistas.
- 
+Respuesta:
+ usar alineacion, distribuicion y espacio. 
  */
 
 //: 5. ¿Cuál es la versión más actual de Swift y iOS?
@@ -34,8 +35,8 @@ Respuesta: Puedes definir ciertas constrains y la manera en que ciertos elemento
 //: c) Swift: 4.0 iOS: 11
 //: d) Swift: 5.0 iOS: 13
 /*
-Respuesta: d
- 
+Respuesta:
+ d
  */
 
 //: 6. ¿Qué tengo que hacer para que mi interfaz sea vean *bien* en todos los dispositivos (Por *bien* me refiero a que si pongo un botón en el centro de mi vista y al girarlo, ese botón se siga viendo en el centro)?
@@ -43,7 +44,10 @@ Respuesta: d
 //: - b) Agregar constraints
 //: - c) Ninguna de las anteriores
 /*
-Respuesta: b
+Respuesta:
+ 
+ b
+ 
  */
 
 //: 7. Supón que tienes un UIButton dentro de una vista A y quieres hacer una transición a otra vista B al presionar ese botón. ¿Qué tienes que hacer si quieres que la vista B aparezca de derecha a izquierda?
@@ -52,7 +56,7 @@ Respuesta: b
 //: - c) Ctrl + Drag del botón a la vista B  > Método de presentación: Show
 //: - d) Ctrl + Drag del botón a la vista B  > Método de presentación: PresentModally
 /*
-Respuesta: a
+Respuesta:
  
  */
 
